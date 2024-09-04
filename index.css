@@ -1,0 +1,299 @@
+
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian:wght@100..900&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Noto Serif Georgian", sans-serif serif;
+            font-family: "Playfair Display";
+            max-width: 1440px;
+            user-select: none;
+        }
+
+        ul{
+            width: 100%;
+            position: fixed;
+            list-style-type: none;
+            margin: 0;
+            letter-spacing: 4px;
+            padding: 5px 45px 5px 25px ;
+            overflow: hidden;
+            background-color:white;
+            box-shadow: 0 4px 5px 0 rgba(41, 37, 37, 0.2), 0 3px 20px 0 rgba(68, 63, 63, 0.3);
+        }
+        li{
+            float: left;
+        }
+        li a {
+            display: block;
+            text-align: center;
+            padding: 15px 12px;
+            text-decoration: none;
+            color: #607d8b;
+            }
+            li a:hover{
+                background-color: lightgray;
+            }
+            .li-right{
+                float: right;
+            } 
+            @media screen and (max-width: 600px) {
+            li.right, 
+            li {float: none;}
+            ul{
+                background-color: white;
+                opacity: 0.7;
+                margin: 0 0 0 0; 
+                padding: 0 0 0 0;
+                letter-spacing: normal;
+            }
+            li{
+                float: left;
+            }
+            .li-right{
+                padding: 0;
+                margin: 0;
+            }
+         
+}
+#contact-pic{
+    cursor: url("https://potatologics.com/wp-content/uploads/2022/03/Pakistan-3.svg"),auto;
+}
+    
+.background-image{
+            z-index: -1;
+            background-image: url(hamburger.jpg);
+            width: 100%;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            
+        }
+        .text{
+            padding-top: 45%;
+            padding-bottom: 2%;
+            margin-left: 2%;
+            letter-spacing: 4px;
+            color: #6b6c6d;
+            font-size: 40px;
+        }
+
+        .clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+       .col-1{
+        width: 45%;
+        float: left;
+        padding: 6% 0 6% 6%;
+        margin-left: 5%;
+       }
+    
+       .col-2{
+        width: 45%;
+        float: left;
+        padding: 7% 0 7% 0;
+        margin-left: 2%;
+       }
+       
+       .h1 {
+            font-size: 36px;
+            letter-spacing: 4px;
+            padding-left: 110px;
+            padding-top: 10px;
+        }
+
+        .h2 {
+            font-size: 18px;
+            padding-left: 140px;
+            letter-spacing: 3px;
+            padding-top: 30px;
+        }
+
+        .h3 {
+            font-size: 18px;
+            width: 84%;
+            line-height: 1.5;
+            padding-top: 8px;
+        }
+
+        .h4 {
+            font-size: 18px;
+            width: 83%;
+            line-height: 1.5;
+            color: gray;
+        }
+        .col-3{
+            width: 45%;
+        float: left;
+        padding: 6% 0 6% 0;
+        margin-left: 1%;
+        }
+        .menu{
+            padding-left: 271px;
+            font-size: 36px;
+            font-weight: 400;
+            letter-spacing: 5px;
+            padding-top: 30px;
+            margin-bottom: 6%;
+        }
+        .heading{
+            font-size: 20px;
+            font-family: "Playfair Display";
+            font-weight: 500;
+            letter-spacing: 5px;
+            margin-left: 20%;
+            padding: 20px;
+        }
+        .para{
+        font-size: 15px;
+        color: gray;    
+        padding: 8px;
+        margin-left: 22%;
+        }
+        .col-4{
+            width: 45%;
+        float: left;
+        padding: 110px 0 7% 10px;
+        margin-left: 5%;
+        }
+
+        .forms {
+      width: 80%;
+      padding: 20px;
+      padding-left: none;
+      margin: 1%;
+      margin-left: 10%;
+      border-bottom: 0.5px solid gray;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      font-family: "Noto Serif Georgian", sans-serif serif;
+    }
+
+    .forms1 {
+      padding: 10px;
+      margin-left: 10%;
+      margin-top: 2%;
+      text-align: center;
+      font-family: "Noto Serif Georgian", sans-serif serif;
+      border: none;
+    }
+
+    .forms1:hover {
+      background-color: lightgray;
+    }
+    .end {
+      background-color: lightgray;
+      padding: 50px;
+      margin-top: 10%;
+      text-align: center;
+    }
+        /* Reponsive col-1,2,3,4 */
+        @media screen and (max-width: 600px) {
+            .col-1{
+                width: 100%;
+                text-align: center;
+                padding: 0;
+                border-radius: 8px;
+                margin: 5% 0 5% 0;
+                /* margin: 0; */
+            }
+            .col-2{
+                width: 96%;
+                margin: 2%;
+                padding: 10px;
+                border: 1px solid black;
+                border-radius: 8px;
+                margin-bottom: 5%;
+            }
+            .h1{
+                text-align: center;
+                margin: 0;
+                padding: 0;
+            }
+            .h2{
+                text-align: center;
+                margin: 0;
+                padding: 0;
+            }
+
+            .col-3{
+                width: 96%;
+                text-align: center;
+                margin: 2%;
+                padding: 0;
+                border: 1px solid black;
+                border-radius: 8px;
+                margin-top: 5%;
+            }
+            .menu{
+                text-align: center;
+                margin: 0;
+                padding: 10px;
+            }
+            .heading, .para{
+                text-align: center;
+                margin: 0;
+                padding: 15px;
+            }
+            .col-4{
+                width: 100%;
+                text-align: center;
+                padding: 0;
+                border-radius: 8px;
+                margin: 5% 0 5% 0;
+            }
+            }
+            @media screen and (min-width: 601px) and (max-width: 980px){
+                .col-1{
+                    width: 50%;
+                    margin-top: 25%;
+                    padding: 0;
+                }
+                .col-2{
+                    width: 40%;
+                    margin-top: 8%;
+                    padding: 0;
+                    text-align: center;
+                    margin-bottom: 2%;
+                }
+                .h1{
+                /* text-align: center; */
+                margin: 0;
+                padding: 0;
+            }
+            .h2{
+                /* text-align: center; */
+                margin: 0;
+                padding: 0;
+            }
+            .col-3{
+                width: 50%;
+                text-align: center;
+                margin: 2%;
+                padding: 0;
+                /* border: 1px solid black; */
+                border-radius: 8px;
+                margin-top: 5%;
+            }
+            .menu{
+                text-align: center;
+                margin: 0;
+                padding: 10px;
+            }
+            .heading, .para{
+                text-align: center;
+                margin: 0;
+                padding: 15px;
+            }
+            .col-4{
+                width: 45%;
+                text-align: center;
+                padding: 0;
+                border-radius: 8px;
+                margin: 25% 0 5% 0;
+            }
+
+            }
